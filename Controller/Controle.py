@@ -192,7 +192,7 @@ class Controle:
         c.save()
 
         if messagebox.askyesno('AGT - Contrato', 'PDF do Contrato gerado, Deseja abrir?'):
-            os.startfile('C:/Users/Tiago/Desktop/Faculdade/6P/Analise Modelo Sistema/Cont Trabalho/Projeto AGT/'
+            os.startfile('C:/CAMINHODAPASTA/'
                          + nome_pdf)
         else:
             pass
